@@ -17,12 +17,11 @@ npm run build
 
 ## Pages
 
-- `/` â€” Home
-- `/solutions` â€” Residential and commercial solar
-- `/solar-benefits` â€” Solar and financial benefits
-- `/why-cartnet` â€” Quality, service, and process
-- `/coverage` â€” Nationwide service coverage
-- `/contact` â€” Enquiry form preview
+- `/` — Home
+- `/solutions` — Residential and commercial solar
+- `/solar-benefits` — Solar and financial benefits
+- `/why-cartnet` — Quality, service, and process
+- `/coverage` — Nationwide service coverage
+- `/contact` — Enquiry form preview
 
 The contact form is currently a visual prototype and does not submit enquiries.
-
