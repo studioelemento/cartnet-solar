@@ -67,7 +67,7 @@
     .solution-card { min-height:340px; padding:30px; border-radius:19px; position:relative; overflow:hidden; display:flex; flex-direction:column; justify-content:space-between; }
     .solution-card.home { background:#e8eddb; }
     .solution-card.business { background:#e9e8df; }
-    .solution-card .card-copy { position:relative; z-index:1; max-width:280px; }
+    .solution-card .card-copy { position:relative; z-index:1; width:100%; max-width:245px; min-width:0; }
     .card-index { font-size:10px; color:#68766b; letter-spacing:.13em; text-transform:uppercase; }
     .solution-card h3 { font-size:27px; line-height:1.12; margin:22px 0 10px; font-weight:600; }
     .solution-card p { color:#68746c; font-size:13px; line-height:1.65; }
@@ -130,7 +130,8 @@
       .proof-row { flex-wrap:wrap; justify-content:flex-start; column-gap:35px; row-gap:20px; }
       .proof-intro { max-width:100%; width:100%; }
       .benefits-grid,.why-grid { gap:42px; }
-      .solution-art { width:50%; }
+      .solution-card .card-copy { width:40%; max-width:none; }
+      .solution-art,.business .solution-art { width:44%; }
     }
     @media (max-width:680px) {
       .wrap { width:min(100% - 36px,520px); }
@@ -161,8 +162,9 @@
       .section-head { display:block; margin-bottom:27px; }
       .section-head p { margin-top:16px; }
       .solutions { grid-template-columns:1fr; }
-      .solution-card { min-height:320px; padding:25px; }
-      .solution-art { width:59%; height:68%; }
+      .solution-card { min-height:0; padding:25px; }
+      .solution-card .card-copy { width:100%; max-width:none; }
+      .solution-art,.business .solution-art { position:relative; width:calc(100% + 50px); height:220px; right:auto; bottom:auto; margin:24px -25px -25px; }
       .benefits-grid,.why-grid { grid-template-columns:1fr; gap:35px; }
       .benefit-intro { font-size:13px; }
       .why-image { height:360px; }
